@@ -1,6 +1,7 @@
-## Welcome to GitHub Pages
+## 欢迎
 
-You can use the [editor on GitHub](https://github.com/applepieyulin/applepieyulin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+你可以点击[我的世界12.2](https://pan.baidu.com/s/13JGyp1zVILvWMmKF4OVX_Q) 下载。
+提取码：hh7u
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
