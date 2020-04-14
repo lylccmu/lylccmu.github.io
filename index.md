@@ -8,7 +8,7 @@
 ![](image1.png)
 ![](image2.png)
 ![](image3.png)
-
+[others](/1.md)
 
 
 
