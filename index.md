@@ -5,7 +5,6 @@
 提取码：hh7u
 ### 光影
 点击[这里](/BSL Standard v7.0p1.zip)下载光影文件
-[others](/1.md)
 ![](image1.png)
 ![](image2.png)
 ![](image3.png)
