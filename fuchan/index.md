@@ -1,2 +1,2 @@
 # 妇产科
-[产后出血](/fuchan/产后出血.md)
+[产后出血](chanhouchuxue.md)
