@@ -1,23 +1,26 @@
-<html>
-<head>
-<title>BMI计算</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-<script>
-function sh(){
-var x=document.getElementById("a");
-var y=document.getElementById("b");
-var z=document.getElementById("o");
 
-z.innerHTML=x.toNumber()/(y.toNumber() * y.toNumber());
-}
-</script>
-</head>
-<body>
-<input id="a" value="体重：" />
-<input id="b" value="身高：" />
-  <br/>
-  <hr/>
-<input type="button" value="calculate" onclick="sh()" />
-<p id="o"></p>
-</body>
-</html>
+<html>
+    <head>
+    <title>BMI计算</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script>
+    function sh(){
+    var x=document.getElementById("a");
+    var y=document.getElementById("b");
+    var z=document.getElementById("o");
+
+    z.innerHTML=x.value/(y.value * y.value);
+    }
+    </script>
+    </head>
+    <body>
+    <p>体重：</p>
+    <input id="a"  />
+    <p>身高：</p>
+    <input id="b"  />
+      <br/>
+      <hr/>
+    <input type="button" value="calculate" onclick="sh()" />
+    <p id="o"></p>
+    </body>
+    </html>
