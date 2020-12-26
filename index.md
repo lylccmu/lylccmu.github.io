@@ -1,3 +1,9 @@
 ## Welcome to the page of lyl
-#### [BMI](https://lylccmu.github.io/bmi/)
-#### [生命体征](https://lylccmu.github.io/p/)
+### [DogeDoge](https://www.dogedoge.com/)
+### [Baidu](https://www.baidu.com/)
+### [Bing](https://cn.bing.com/)
+###
+## Others
+##### [minecraft](https://lylccmu.github.io/minecraft)
+##### [BMI](https://lylccmu.github.io/bmi/)
+##### [生命体征](https://lylccmu.github.io/p/)
