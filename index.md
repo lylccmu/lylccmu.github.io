@@ -7,4 +7,4 @@
 ##### [minecraft](https://lylccmu.github.io/minecraft)
 ##### [BMI](https://lylccmu.github.io/bmi/)
 ##### [生命体征](https://lylccmu.github.io/p/)
-##### [silent option 1.0.16](https://lylccmu.github.io/os)
+##### [silent option 1.0.16](https://lylccmu.github.io/so/)
