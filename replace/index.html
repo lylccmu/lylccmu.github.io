@@ -1,32 +1,30 @@
 
 <html>
-    <head>
-    <title>replacer</title>
+<head>
+     <title>replacer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <script>
-    function sh(){
-    var x=document.getElementById("a");
-    var y=document.getElementById("b");
-    var z=document.getElementById("o");
-
-    try{  
-        x=x.replace(/\r\n/g," ");
-
-    }catch(e) {  
-        alert(e.message);  
-    }  
-    z.innerHTML=x;
-    }
+    <script type="text/javascript">
+        function strReplace(str){
+            document.form.output.value=str.replace(/\r\n/g,"\\n").replace(/\n/g,"");
+        }
     </script>
-    </head>
-    <body>
-    <p>输入：</p>
-    <input id="a"  />
-    <p>输出：</p>
-    <input id="b"  />
-      <br/>
-      <hr/>
-    <input type="button" value="calculate" onclick="sh()" />
-    <p id="o"></p>
-    </body>
-    </html>
+</head>
+<body>
+<form id="form" name="form" method="post" action="#">
+    <label>文本输入:</label><br>
+    <p>
+        <textarea name="input" cols="30" rows="3" id="input"></textarea><br>
+    </p>
+    <label>文本输出:</label><br>
+    <p>
+        <textarea name="output" cols="30" rows="1" id="output" readonly="readonly"></textarea><br>
+    </p>
+    <p>
+        <label>
+            <input type="button" name="Submit" value="强制阻止文本换行" onclick="strReplace(input.value)">
+        </label>
+    </p>
+</form>
+</body>
+</html>
