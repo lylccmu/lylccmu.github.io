@@ -1,1 +1,32 @@
 
+<html>
+    <head>
+    <title>replacer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script>
+    function sh(){
+    var x=document.getElementById("a");
+    var y=document.getElementById("b");
+    var z=document.getElementById("o");
+
+    try{  
+        x=x.replace(/\r\n/g," ");
+
+    }catch(e) {  
+        alert(e.message);  
+    }  
+    z.innerHTML=x;
+    }
+    </script>
+    </head>
+    <body>
+    <p>输入：</p>
+    <input id="a"  />
+    <p>输出：</p>
+    <input id="b"  />
+      <br/>
+      <hr/>
+    <input type="button" value="calculate" onclick="sh()" />
+    <p id="o"></p>
+    </body>
+    </html>
