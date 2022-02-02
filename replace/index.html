@@ -8,6 +8,10 @@
         function strReplace(str){
             document.form.output.value=str.replace(/\r\n/g,"\\n").replace(/\n/g,"");
         }
+        function cls(){
+            document.form.input.value="";
+            document.form.output.value="";
+        }
     </script>
 </head>
 <body>
@@ -23,6 +27,7 @@
     <p>
         <label>
             <input type="button" name="Submit" value="强制阻止文本换行" onclick="strReplace(input.value)">
+            <input type="button" name="Submit" value="清空" onclick="cls()">
         </label>
     </p>
 </form>
