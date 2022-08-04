@@ -9,3 +9,4 @@
 ##### [BMI](https://lylccmu.github.io/bmi/)
 ##### [生命体征](https://lylccmu.github.io/p/)
 ##### [silent option 1.0.16](https://lylccmu.github.io/so/)
+##### [病历号](https://lylccmu.github.io/num/)
