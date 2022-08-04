@@ -1,5 +1,4 @@
 ## Welcome to the page of lyl
-### [DogeDoge](https://www.dogedoge.com/)
 ### [Baidu](https://www.baidu.com/)
 ### [Bing](https://cn.bing.com/)
 ###
