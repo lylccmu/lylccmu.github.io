@@ -7,5 +7,5 @@
 ### [atman](https://fanyi.atman360.com/text/)
 ### [ipubmed](https://www.corepubmed.com/)
 ### [scihub](https://sci-hub.se/)
-### [pubmed](https://https://pubmed.ncbi.nlm.nih.gov/)
+### [pubmed](https://pubmed.ncbi.nlm.nih.gov/)
 
