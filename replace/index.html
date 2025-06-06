@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <script type="text/javascript">
         function strReplace(str){
-            document.form.output.value=str.replace(/\r\n/g,"\\n").replace(/\n/g,"");
+            document.form.output.value = str.replace(/\r\n/g,"\\n").replace(/\n/g,"");
         }
         function cls(){
-            document.form.input.value="";
-            document.form.output.value="";
+            document.form.input.value = "";
+            document.form.output.value = "";
+        }
+        function copyText() {
+            const output = document.getElementById("output");
+            output.select();
+            output.setSelectionRange(0, 99999); // 兼容移动设备
+
+            // 使用 clipboard API
+            navigator.clipboard.writeText(output.value).then(function() {
+                alert("已复制到剪贴板！");
+            }, function(err) {
+                alert("复制失败: " + err);
+            });
         }
     </script>
 </head>
@@ -26,8 +38,9 @@
     </p>
     <p>
         <label>
-            <input type="button" name="Submit" value="强制阻止文本换行" onclick="strReplace(input.value)">
-            <input type="button" name="Submit" value="清空" onclick="cls()">
+            <input type="button" value="强制阻止文本换行" onclick="strReplace(input.value)">
+            <input type="button" value="清空" onclick="cls()">
+            <input type="button" value="复制输出文本" onclick="copyText()">
         </label>
     </p>
 </form>
